@@ -17,7 +17,7 @@ int main() {
 
 string name1="Bradmin";
 hello1Function(name1);
-string name2="your name2";
+string name2="Patrick Shin";
 hello2Function(name2);
 
 return 0;
