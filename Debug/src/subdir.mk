@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/git.cpp \
-../src/hello1Function.cpp 
+../src/hello1Function.cpp \
+../src/hello2Function.cpp 
 
 OBJS += \
 ./src/git.o \
-./src/hello1Function.o 
+./src/hello1Function.o \
+./src/hello2Function.o 
 
 CPP_DEPS += \
 ./src/git.d \
-./src/hello1Function.d 
+./src/hello1Function.d \
+./src/hello2Function.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
